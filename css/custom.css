@@ -1,0 +1,56 @@
+#item-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    height: auto;
+    gap: 0 20px;
+}
+
+.item-container {
+    list-style: none;
+    flex: 0 0 31.9%;
+}
+
+.active-badges {
+    border-radius: 50rem;
+    background-color: #154c34;
+    color: #9ce4c2;
+    border-color: #0f5132;
+    border: 1px solid #75b798;
+    --bs-badge-padding-x: 0.65em;
+    --bs-badge-padding-y: 0.35em;
+    --bs-badge-font-size: 0.75em;
+    --bs-badge-font-weight: 700;
+    --bs-badge-color: #fff;
+    --bs-badge-border-radius: 0.375rem;
+    display: inline-block;
+    padding: 0.35em 0.65em;
+    font-size: 0.75em;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+}
+
+.off-badges {
+    border-radius: 50rem;
+    background-color: #2c0b0e;
+    color: #ea868f;
+    border-color: #842029;
+    border: 1px solid #e17983;
+    --bs-badge-padding-x: 0.65em;
+    --bs-badge-padding-y: 0.35em;
+    --bs-badge-font-size: 0.75em;
+    --bs-badge-font-weight: 700;
+    --bs-badge-color: #fff;
+    --bs-badge-border-radius: 0.375rem;
+    display: inline-block;
+    padding: 0.35em 0.65em;
+    font-size: 0.75em;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+}
